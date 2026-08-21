@@ -1,24 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import {
-  ArrowRight,
-  BrainCircuit,
-  Check,
-  CheckCircle2,
-  ChevronLeft,
-  ChevronRight,
-  ClipboardCheck,
-  Eye,
-  Hand,
-  HeartPulse,
-  Menu,
-  Move3d,
-  ShieldCheck,
-  Sparkles,
-  Users,
-  X,
-} from 'lucide-react'
+import { ArrowRight, BrainCircuit, Check, CircleCheck as CheckCircle2, ChevronLeft, ChevronRight, ClipboardCheck, Eye, Hand, HeartPulse, Menu, Move3d, ShieldCheck, Sparkles, Users, X } from 'lucide-react'
 
 const questions = [
   ['Response to Name', 'How often does the child respond when their name is called?', 'Social Interaction'],
